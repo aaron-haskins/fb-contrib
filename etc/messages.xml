@@ -6253,7 +6253,7 @@ if (shouldCalcHalting && (calculateHaltingProbability() &gt; 0) { }
     
     <BugPattern type="FII_USE_METHOD_REFERENCE">
     	<ShortDescription>Method creates an anonymous lambda expression instead of specifying a method reference</ShortDescription>
-    	<LongDescription>Method {1} creates an anonymous lamda expression instead of specifying a method reference</LongDescription>
+    	<LongDescription>Method {1} creates an anonymous lambda expression instead of specifying a method reference</LongDescription>
     	<Details>
     	<![CDATA[
     	<p>This method defines an anonymous lambda function to be called to fetch a single value from the passed in value. While
